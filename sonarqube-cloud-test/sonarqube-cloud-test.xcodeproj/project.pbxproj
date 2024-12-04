@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D5A3F2272D0013CA0089C740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5A3F20E2D0013C80089C740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5A3F2152D0013C80089C740;
+			remoteInfo = "sonarqube-cloud-test";
+		};
+		D5A3F2312D0013CA0089C740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5A3F20E2D0013C80089C740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5A3F2152D0013C80089C740;
+			remoteInfo = "sonarqube-cloud-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5A3F2162D0013C80089C740 /* sonarqube-cloud-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sonarqube-cloud-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A3F2262D0013CA0089C740 /* sonarqube-cloud-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sonarqube-cloud-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A3F2302D0013CA0089C740 /* sonarqube-cloud-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sonarqube-cloud-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D5A3F2182D0013C80089C740 /* sonarqube-cloud-test */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "sonarqube-cloud-test";
+			sourceTree = "<group>";
+		};
+		D5A3F2292D0013CA0089C740 /* sonarqube-cloud-testTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "sonarqube-cloud-testTests";
+			sourceTree = "<group>";
+		};
+		D5A3F2332D0013CA0089C740 /* sonarqube-cloud-testUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "sonarqube-cloud-testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5A3F2132D0013C80089C740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A3F2232D0013CA0089C740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A3F22D2D0013CA0089C740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5A3F20D2D0013C80089C740 = {
+			isa = PBXGroup;
+			children = (
+				D5A3F2182D0013C80089C740 /* sonarqube-cloud-test */,
+				D5A3F2292D0013CA0089C740 /* sonarqube-cloud-testTests */,
+				D5A3F2332D0013CA0089C740 /* sonarqube-cloud-testUITests */,
+				D5A3F2172D0013C80089C740 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5A3F2172D0013C80089C740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5A3F2162D0013C80089C740 /* sonarqube-cloud-test.app */,
+				D5A3F2262D0013CA0089C740 /* sonarqube-cloud-testTests.xctest */,
+				D5A3F2302D0013CA0089C740 /* sonarqube-cloud-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5A3F2152D0013C80089C740 /* sonarqube-cloud-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A3F23A2D0013CA0089C740 /* Build configuration list for PBXNativeTarget "sonarqube-cloud-test" */;
+			buildPhases = (
+				D5A3F2122D0013C80089C740 /* Sources */,
+				D5A3F2132D0013C80089C740 /* Frameworks */,
+				D5A3F2142D0013C80089C740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D5A3F2182D0013C80089C740 /* sonarqube-cloud-test */,
+			);
+			name = "sonarqube-cloud-test";
+			packageProductDependencies = (
+			);
+			productName = "sonarqube-cloud-test";
+			productReference = D5A3F2162D0013C80089C740 /* sonarqube-cloud-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5A3F2252D0013CA0089C740 /* sonarqube-cloud-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A3F23D2D0013CA0089C740 /* Build configuration list for PBXNativeTarget "sonarqube-cloud-testTests" */;
+			buildPhases = (
+				D5A3F2222D0013CA0089C740 /* Sources */,
+				D5A3F2232D0013CA0089C740 /* Frameworks */,
+				D5A3F2242D0013CA0089C740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5A3F2282D0013CA0089C740 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D5A3F2292D0013CA0089C740 /* sonarqube-cloud-testTests */,
+			);
+			name = "sonarqube-cloud-testTests";
+			packageProductDependencies = (
+			);
+			productName = "sonarqube-cloud-testTests";
+			productReference = D5A3F2262D0013CA0089C740 /* sonarqube-cloud-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5A3F22F2D0013CA0089C740 /* sonarqube-cloud-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A3F2402D0013CA0089C740 /* Build configuration list for PBXNativeTarget "sonarqube-cloud-testUITests" */;
+			buildPhases = (
+				D5A3F22C2D0013CA0089C740 /* Sources */,
+				D5A3F22D2D0013CA0089C740 /* Frameworks */,
+				D5A3F22E2D0013CA0089C740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5A3F2322D0013CA0089C740 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D5A3F2332D0013CA0089C740 /* sonarqube-cloud-testUITests */,
+			);
+			name = "sonarqube-cloud-testUITests";
+			packageProductDependencies = (
+			);
+			productName = "sonarqube-cloud-testUITests";
+			productReference = D5A3F2302D0013CA0089C740 /* sonarqube-cloud-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5A3F20E2D0013C80089C740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D5A3F2152D0013C80089C740 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D5A3F2252D0013CA0089C740 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D5A3F2152D0013C80089C740;
+					};
+					D5A3F22F2D0013CA0089C740 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D5A3F2152D0013C80089C740;
+					};
+				};
+			};
+			buildConfigurationList = D5A3F2112D0013C80089C740 /* Build configuration list for PBXProject "sonarqube-cloud-test" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5A3F20D2D0013C80089C740;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D5A3F2172D0013C80089C740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5A3F2152D0013C80089C740 /* sonarqube-cloud-test */,
+				D5A3F2252D0013CA0089C740 /* sonarqube-cloud-testTests */,
+				D5A3F22F2D0013CA0089C740 /* sonarqube-cloud-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5A3F2142D0013C80089C740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A3F2242D0013CA0089C740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A3F22E2D0013CA0089C740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5A3F2122D0013C80089C740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A3F2222D0013CA0089C740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A3F22C2D0013CA0089C740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5A3F2282D0013CA0089C740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5A3F2152D0013C80089C740 /* sonarqube-cloud-test */;
+			targetProxy = D5A3F2272D0013CA0089C740 /* PBXContainerItemProxy */;
+		};
+		D5A3F2322D0013CA0089C740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5A3F2152D0013C80089C740 /* sonarqube-cloud-test */;
+			targetProxy = D5A3F2312D0013CA0089C740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D5A3F2382D0013CA0089C740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5A3F2392D0013CA0089C740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5A3F23B2D0013CA0089C740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sonarqube-cloud-test/Preview Content\"";
+				DEVELOPMENT_TEAM = 3L2RCUTA6H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lges.sonarqube-cloud-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5A3F23C2D0013CA0089C740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sonarqube-cloud-test/Preview Content\"";
+				DEVELOPMENT_TEAM = 3L2RCUTA6H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lges.sonarqube-cloud-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5A3F23E2D0013CA0089C740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L2RCUTA6H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lges.sonarqube-cloud-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sonarqube-cloud-test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sonarqube-cloud-test";
+			};
+			name = Debug;
+		};
+		D5A3F23F2D0013CA0089C740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L2RCUTA6H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lges.sonarqube-cloud-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sonarqube-cloud-test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sonarqube-cloud-test";
+			};
+			name = Release;
+		};
+		D5A3F2412D0013CA0089C740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L2RCUTA6H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lges.sonarqube-cloud-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sonarqube-cloud-test";
+			};
+			name = Debug;
+		};
+		D5A3F2422D0013CA0089C740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L2RCUTA6H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lges.sonarqube-cloud-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sonarqube-cloud-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5A3F2112D0013C80089C740 /* Build configuration list for PBXProject "sonarqube-cloud-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A3F2382D0013CA0089C740 /* Debug */,
+				D5A3F2392D0013CA0089C740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A3F23A2D0013CA0089C740 /* Build configuration list for PBXNativeTarget "sonarqube-cloud-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A3F23B2D0013CA0089C740 /* Debug */,
+				D5A3F23C2D0013CA0089C740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A3F23D2D0013CA0089C740 /* Build configuration list for PBXNativeTarget "sonarqube-cloud-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A3F23E2D0013CA0089C740 /* Debug */,
+				D5A3F23F2D0013CA0089C740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A3F2402D0013CA0089C740 /* Build configuration list for PBXNativeTarget "sonarqube-cloud-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A3F2412D0013CA0089C740 /* Debug */,
+				D5A3F2422D0013CA0089C740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5A3F20E2D0013C80089C740 /* Project object */;
+}
