@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import SwiftUI
+
+class AppState: ObservableObject {
+    @Published var progressCount: Int = 0
+}

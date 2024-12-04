@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject private var appstate: AppState
+
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -16,6 +18,12 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .onAppear {
+            appstate.progressCount += 1
+            print("progressCount:\(appstate.progressCount)")
+            appstate.progressCount -= 1
+            print("progressCount:\(appstate.progressCount)")
+        }
     }
 }
 
